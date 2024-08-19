@@ -17,13 +17,13 @@ const data = search.videos[0];
 const url = data.url
 
 let desc = `
-🎵 *<│ᴹᴿ 𝗕 𝗜 𝗡 𝗨 🐰💙 BOT SONG DOWNLOADER* 🎵
+🎵 *ᴍʀ ʙɪɴᴜ ʙᴏᴛ ꜱᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ* 🎵
 
-title: ${data.title}
-description: ${data.description}
-time: ${data.time}
-ago: ${data.ago}
-views: ${data.views}
+Title: ${data.title}
+Description: ${data.description}
+Time: ${data.time}
+Ago: ${data.ago}
+Views: ${data.views}
 
 ©ᴍᴀᴅᴇ ʙʏ ʙɪɴᴜ_ʙᴏᴛ
 `
@@ -35,7 +35,7 @@ let down = await fg.yta(url)
 let downloadUrl = down.dl_url
 
 //========== Send Audio Message ==========
-await con.sendMessage(from,{audio: {url:downloadUrl},mimetype:"audio/mpeg"},{quoted:mek})
+await conn.sendMessage(from,{audio: {url:downloadUrl},mimetype:"audio/mpeg"},{quoted:mek})
 
     
 }catch(e){
