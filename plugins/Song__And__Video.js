@@ -39,7 +39,7 @@ await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:m
 let down = await fg.yta(url)
 let downloadUrl = down.dl_url
 
-//========== Send Audio Message ==========
+//========== Send Audio And Audio Document Message ==========
 await conn.sendMessage(from,{audio: {url:downloadUrl},mimetype:"audio/mpeg"},{quoted:mek})
 await conn.sendMessage(from,{document: {url:downloadUrl},mimetype:"audio/mpeg",fileName:data.title + ".mp3"},{quoted:mek})
     
@@ -87,7 +87,7 @@ await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:m
 let down = await fg.ytv(url)
 let downloadUrl = down.dl_url
 
-//========== Send Video Message ==========
+//========== Send Video And Video Document Message ==========
 await conn.sendMessage(from,{video: {url:downloadUrl},mimetype:"video/mp4"},{quoted:mek})
 await conn.sendMessage(from,{document: {url:downloadUrl},mimetype:"video/md4",fileName:data.title + ".mp4"},{quoted:mek})
     
