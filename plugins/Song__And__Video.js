@@ -29,8 +29,15 @@ Views: ${data.Views}
 `
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});    
 
+//========== Download Audio ==========
 
+let down = await fg.yta(url)
+let downloadUrl = down.dl_url
 
+//========== Send Audio Message ==========
+await con.sendMessage(from,{audio: {url:downloadUrl},mimetype:"audio/mpeg"},{quoted:mek})
+
+    
 }catch(e){
 console.log(e)
 reply(`${e}`)
