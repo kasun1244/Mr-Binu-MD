@@ -25,9 +25,7 @@ Time: ${data.Time}
 Ago: ${data.Ago}
 Views: ${data.Views}
 
-
-
-
+©ᴍᴀᴅᴇ ʙʏ ʙɪɴᴜ_ʙᴏᴛ
 `
 
     
