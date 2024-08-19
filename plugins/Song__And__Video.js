@@ -19,11 +19,11 @@ const url = data.url
 let desc = `
 🎵 *<│ᴹᴿ 𝗕 𝗜 𝗡 𝗨 🐰💙 BOT SONG DOWNLOADER* 🎵
 
-Title: ${data.title}
-Description: ${data.description}
-Time: ${data.time}
-Ago: ${data.ago}
-Views: ${data.views}
+title: ${data.title}
+description: ${data.description}
+time: ${data.time}
+ago: ${data.ago}
+views: ${data.views}
 
 ©ᴍᴀᴅᴇ ʙʏ ʙɪɴᴜ_ʙᴏᴛ
 `
