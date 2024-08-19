@@ -13,6 +13,18 @@ async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender
 try{
 if(!q) return reply("Please Give Me Your Song Name Or Song URL...☄️")
 const search = await yts(q)
+const data = search.videos[0];
+const url = data.url
+
+let desc = `
+🎵 *<│ᴹᴿ 𝗕 𝗜 𝗡 𝗨 🐰💙 BOT SONG DOWNLOADER* 🎵
+
+Title: ${data.Title}
+
+
+`
+
+    
 }catch(e){
 console.log(e)
 reply(`${e}`)
