@@ -17,22 +17,20 @@ const data = search.videos[0];
 const url = data.url
 
 let desc = `
-🎵 *ᴍʀ ʙɪɴᴜ ʙᴏᴛ ꜱᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ* 🎵
+𝗠𝗥 𝗕𝗜𝗡𝗨 𝗕𝗢𝗧 𝗦𝗢𝗡𝗚 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥...🌟
 
-Title: ${data.title}
+Title > ${data.title}
 
-Description: ${data.description}
+Description > ${data.description}
 
-Time: ${data.time}
+Time > ${data.time}
 
-Ago: ${data.ago}
+Ago > ${data.ago}
 
 Views: ${data.views}
 
 
 © MADE_BY- BINU_BOT
-
-
 `
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});    
 
