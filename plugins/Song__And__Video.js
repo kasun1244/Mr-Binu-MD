@@ -20,12 +20,19 @@ let desc = `
 🎵 *ᴍʀ ʙɪɴᴜ ʙᴏᴛ ꜱᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ* 🎵
 
 Title: ${data.title}
+
 Description: ${data.description}
+
 Time: ${data.time}
+
 Ago: ${data.ago}
+
 Views: ${data.views}
 
-©ᴍᴀᴅᴇ ʙʏ ʙɪɴᴜ_ʙᴏᴛ
+
+© MADE_BY- BINU_BOT
+
+
 `
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});    
 
