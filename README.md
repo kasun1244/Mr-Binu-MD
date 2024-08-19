@@ -1,2 +1,6 @@
 # Mr-Binu-MD
 A Simple Whatsapp Bot...
+
+MADE BY BINUKA...
+
+https://telegra.ph/file/982640de2d7f18fced629.jpg
