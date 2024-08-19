@@ -27,8 +27,10 @@ Views: ${data.Views}
 
 ©ᴍᴀᴅᴇ ʙʏ ʙɪɴᴜ_ʙᴏᴛ
 `
+await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});    
 
-    
+
+
 }catch(e){
 console.log(e)
 reply(`${e}`)
