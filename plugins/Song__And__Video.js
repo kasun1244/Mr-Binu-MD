@@ -71,7 +71,7 @@ Title > ${data.title}
 
 Description > ${data.description}
 
-Time > ${data.time}
+Time > ${data.duration}
 
 Ago > ${data.ago}
 
