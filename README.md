@@ -3,7 +3,7 @@ A Simple Whatsapp Bot...
 
 SESSION_ID
 
-https://mr-binu-md.onrender.com
+https://mr-binu-pair-code1.onrender.com
 
 
 MADE BY BINUKA...
