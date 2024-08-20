@@ -30,7 +30,7 @@ let desc = `
 *Views* ► ${data.views}
 
 
-© MADE BY - BINU MD
+𝑃𝑂𝑊𝐸𝑅𝐸𝐷 𝐵𝑌 𝐵𝐼𝑁𝑈𝐾𝐴
 `
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});    
 
@@ -78,7 +78,7 @@ let desc = `
 *Views* ► ${data.views}
 
 
-© MADE BY - BINU MD
+𝑃𝑂𝑊𝐸𝑅𝐸𝐷 𝐵𝑌 𝐵𝐼𝑁𝑈𝐾𝐴
 `
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});    
 
