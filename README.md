@@ -1,16 +1,5 @@
-# Mr-Binu-MD
-A Simple Whatsapp Bot...
+# MR-BINU_MD
+   <a><img src='https://telegra.ph/file/982640de2d7f18fced629.jpg'/></a><a><img src='https://telegra.ph/file/982640de2d7f18fced629.jpg'/></a>
+<p align="center">
 
-SESSION_ID
-
-https://mr-binu-pair-code1.onrender.com
-
-
-MADE BY BINUKA...
-
-*කවදාක හෝ කඳුලක් රැඳී...*
-*ඔය දෙනෙතනම් හඬවනු එපා...*
-*මේ හිත මගේ විඳවන හැටි...*
-*කිසිදාකනම් දැනගනු එපා...*
-
-*🥀😩💔__"*
+### If you want to deploy somewhere else, Scan Your Session ID in Our Website..
