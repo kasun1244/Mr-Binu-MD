@@ -1,5 +1,20 @@
+const fbVideoDownloader = require('fb-video-downloader');
+
+// Replace with the URL of the Facebook video you want to download
+const videoUrl = 'https://www.facebook.com/your-video-url';
+
+fbVideoDownloader(videoUrl, function (error, data) {
+    if (error) {
+        console.error('Error:', error);
+        return;
+    }
+    console.log('Video Data:', data);
+    // data will contain the video URL and other details
+});
+
 const {cmd , commands} = require('../command')
-const getFbVideoInfo = require('fb-downloader-scrapper')
+const fbVideoDownloader = require('fb-video-downloader')
+const videoUrl = 'https://www.facebook.com/your-video-url';
 
 cmd({
     pattern: "fb",
@@ -10,9 +25,15 @@ cmd({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 if(!q) return reply("Please Give Me Your Fb URL...⚡")
-const search = await getFbVideoInfo(q)
-const data = search.videos[0];
-const url = data.url[0]
+
+    fbVideoDownloader(videoUrl, function (error, data) {
+    if (error) {
+        console.error('Error:', error);
+        return;
+    }
+    console.log('Video Data:', data);
+    // data will contain the video URL and other details
+};
 
 let desc = `
 𝗕𝗜𝗡𝗨 𝗠𝗗 𝗕𝗢𝗧 𝗙𝗕 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥...🌟
@@ -34,7 +55,7 @@ await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:m
 
 //========== Download Audio ==========
 
-let down = await fg.getFbVideoInfo(url)
+let down = await fbVideoDownloader(url)
 let downloadUrl = down.dl_url
 
 //========== Send Audio And Audio Document Message ==========
