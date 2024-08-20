@@ -10,15 +10,8 @@ cmd({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 if(!q) return reply("Please Give Me Your Fb URL...⚡")
+console.log('Video Data:', data);
 
-    fbVideoDownloader(videoUrl, function (error, data) {
-    if (error) {
-        console.error('Error:', error);
-        return;
-    }
-    console.log('Video Data:', data);
-    // data will contain the video URL and other details
-};    
 
 //========== Download Audio ==========
 
