@@ -19,15 +19,15 @@ const url = data.url
 let desc = `
 𝗕𝗜𝗡𝗨 𝗠𝗗 𝗕𝗢𝗧 𝗦𝗢𝗡𝗚 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥...🌟
 
-Title > ${data.title}
+*Title* ► ${data.title}
 
-Description > ${data.description}
+*Description* ► ${data.description}
 
-Time > ${data.duration}
+*Time* ► ${data.duration}
 
-Ago > ${data.ago}
+*Ago* ► ${data.ago}
 
-Views: ${data.views}
+*Views* ► ${data.views}
 
 
 © MADE BY - BINU MD
@@ -67,15 +67,15 @@ const url = data.url
 let desc = `
 𝗕𝗜𝗡𝗨 𝗠𝗗 𝗕𝗢𝗧 𝗩𝗜𝗗𝗘𝗢 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥...🌟
 
-Title > ${data.title}
+*Title* ► ${data.title}
 
-Description > ${data.description}
+*Description* ► ${data.description}
 
-Time > ${data.duration}
+*Time* ► ${data.duration}
 
-Ago > ${data.ago}
+*Ago* ► ${data.ago}
 
-Views: ${data.views}
+*Views* ► ${data.views}
 
 
 © MADE BY - BINU MD
