@@ -9,13 +9,13 @@ cmd({
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
-if(!q) return reply("Please Give Me Your Song Name...⚡")
+if(!q) return reply("Please Give Me Your Fb URL...⚡")
 const search = await getFbVideoInfo(q)
 const data = search.videos[0];
-const url = data.url
+const url = data.url[0]
 
 let desc = `
-𝗕𝗜𝗡𝗨 𝗠𝗗 𝗕𝗢𝗧 𝗦𝗢𝗡𝗚 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥...🌟
+𝗕𝗜𝗡𝗨 𝗠𝗗 𝗕𝗢𝗧 𝗙𝗕 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥...🌟
 
 *Title* ► ${data.title}
 
