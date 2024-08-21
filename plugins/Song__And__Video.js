@@ -29,8 +29,7 @@ let desc = `
 
 *Views* ► ${data.views}
 
-©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙɪɴᴜ ᴍᴅ
-`
+ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙɪɴᴜ ᴍᴅ`
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});    
 
 //========== Download Audio ==========
@@ -76,8 +75,7 @@ let desc = `
 
 *Views* ► ${data.views}
 
-©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙɪɴᴜ ᴍᴅ
-`
+ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙɪɴᴜ ᴍᴅ`
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});    
 
 //========== Download Video ==========
