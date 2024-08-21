@@ -32,8 +32,7 @@ let status = `𝗪𝗘𝗟𝗖𝗢𝗠𝗘 𝗧𝗢 𝗦𝗬𝗦𝗧𝗘𝗠 �
 
 *_Channel_* ► https://whatsapp.com/channel/0029VagVrb63rZZcQ9HRX32y
 
-©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙɪɴᴜ ᴍᴅ
-`
+ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙɪɴᴜ ᴍᴅ`
 return reply(`${status}`)
 }catch(e){
 console.log(e)
