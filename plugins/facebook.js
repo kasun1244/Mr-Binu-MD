@@ -1,5 +1,5 @@
 const {cmd , commands} = require('../command')
-import fg from 'api-dylux';
+const fg = require('api-dylux')
 cmd({
     pattern: "facebook",
     desc: "download facebokk",
