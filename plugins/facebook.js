@@ -10,7 +10,7 @@ cmd({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 if(!q) return reply("Please Give Me Your Song Name...⚡")
-const search = await fg.fbdl(q)
+const search = await fbdl(q)
 const data = search.videos[0];
 const url = data.url
 
