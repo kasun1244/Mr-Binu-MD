@@ -29,8 +29,7 @@ let desc = `
 
 *Views* ► ${data.views}
 
-
-𝑃𝑂𝑊𝐸𝑅𝐸𝐷 𝐵𝑌 𝐵𝐼𝑁𝑈𝐾𝐴
+©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙɪɴᴜ ᴍᴅ
 `
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});    
 
@@ -77,8 +76,7 @@ let desc = `
 
 *Views* ► ${data.views}
 
-
-𝑃𝑂𝑊𝐸𝑅𝐸𝐷 𝐵𝑌 𝐵𝐼𝑁𝑈𝐾𝐴
+©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙɪɴᴜ ᴍᴅ
 `
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});    
 
