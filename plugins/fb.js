@@ -1,5 +1,5 @@
 const {cmd , commands} = require('../command')
-const fg = require('api-dylux')
+import fg = require('api-dylux')
 
 
 cmd({
@@ -8,9 +8,6 @@ cmd({
     category: "download",
     filename: __filename
 },
-async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
-try{
-if(!q) return reply("Please Give Me Your URL...⚡")
 const handler = async (m, { conn, args, usedPrefix, command }) => {
   if (!args[0]) {
     throw `✳️ කරුණාකර ෆෙස්බුක් වෙබ් ලිපිනය යොදන්න / Please send the link of a Facebook video\n\n📌 EXAMPLE :\n*${usedPrefix + command}* https://www.facebook.com/Ankursajiyaan/videos/981948876160874/?mibextid=rS40aB7S9Ucbxw6v`;
@@ -37,11 +34,4 @@ const handler = async (m, { conn, args, usedPrefix, command }) => {
     console.log(error);
     m.reply('⚠️කරුණාකර නැවත උත්සහ කරන්න / An error occurred while processing the request. Please try again later.');
   }
-};
-
-handler.help = ['facebook <url>'];
-handler.tags = ['dl'];
-handler.command = /^((facebook|fb)(downloder|dl)?)$/i;
-handler.diamond = true;
-
-export default handler;
+});
