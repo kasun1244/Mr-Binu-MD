@@ -8,7 +8,7 @@ cmd({
     category: "download",
     filename: __filename
 },
-const handler = async (m, { conn, args, usedPrefix, command }) => {
+const handler = async (m, { conn, args, usedPrefix, command }) =>
   if (!args[0]) {
     throw `✳️ කරුණාකර ෆෙස්බුක් වෙබ් ලිපිනය යොදන්න / Please send the link of a Facebook video\n\n📌 EXAMPLE :\n*${usedPrefix + command}* https://www.facebook.com/Ankursajiyaan/videos/981948876160874/?mibextid=rS40aB7S9Ucbxw6v`;
   }
