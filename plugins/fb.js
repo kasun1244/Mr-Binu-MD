@@ -1,5 +1,5 @@
 const {cmd , commands} = require('../command')
-import fg = require('api-dylux')
+const fg = require('api-dylux')
 
 
 cmd({
