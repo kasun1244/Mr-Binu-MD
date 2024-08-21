@@ -11,7 +11,15 @@ cmd({
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
-
+let status = `> Uptime: ${runtime(process.uptime())}
+> Ram Usage: ${(process.memoryUsage().helpUsed / 1024 / 1024).toFixed(2)}MB /${Math.round(require('os').totalmem / 1024 /1024)}MB
+> Host Platform: ${(os.hostname)}
+> Owner: Binuka Lasad Udayanga
+`
 }catch(e){
 console.log(e)
 reply(`${e}`)
+
+
+}
+})
