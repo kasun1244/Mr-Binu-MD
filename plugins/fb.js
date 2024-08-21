@@ -33,5 +33,10 @@ const handler = async (m, { conn, args, usedPrefix, command }) => {
   } catch (error) {
     console.log(error);
     m.reply('⚠️කරුණාකර නැවත උත්සහ කරන්න / An error occurred while processing the request. Please try again later.');
-  }
-});
+  };
+
+}catch(e){
+console.log(e)
+reply(`${e}`)
+}
+})
