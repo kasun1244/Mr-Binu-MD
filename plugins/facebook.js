@@ -36,7 +36,7 @@ let down = await fg.fbdl(url)
 let downloadUrl = down.dl_url
 
 //========== Send Audio And Audio Document Message ==========
-await conn.sendMessage(from,{audio: {url:downloadUrl},mimetype:"audio/mpeg"},{quoted:mek})
+await conn.sendMessage(from,{video: {url:downloadUrl},mimetype:"video/mp4"},{quoted:mek})
     
 }catch(e){
 console.log(e)
